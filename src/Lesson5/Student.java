@@ -4,7 +4,6 @@ public class Student {
     public String name;
     public int age;
 
-
     public static Student create(){
         Student students = new Student();
         students.age = (18+(int)(Math.random()*13));
